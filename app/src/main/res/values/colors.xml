@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Colores de gestion de juegos -->
+    <color name="verde">#008f39</color>
+    <color name="rojo">#E3242B</color>
+    <!-- Colores Arcadia X-One -->
+    <color name="naranja_arcadia">#FFA500</color>
+    <color name="gris_claro">#E0E0E0</color>
+</resources>

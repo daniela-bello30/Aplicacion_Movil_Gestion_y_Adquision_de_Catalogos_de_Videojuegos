@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".CRUDJuegosActivity">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARCADIA XONE"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingTop="80dp"
+        android:paddingBottom="60dp" />
+
+    <!-- Botón CREAR -->
+    <Button
+        android:id="@+id/btnCrearPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR"
+        android:backgroundTint="#4CAF50"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón LISTAR -->
+    <Button
+        android:id="@+id/btnListarPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTAR"
+        android:backgroundTint="#4CAF50"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón ACTUALIZAR -->
+    <Button
+        android:id="@+id/btnActualizarPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR"
+        android:backgroundTint="#4CAF50"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón BORRAR -->
+    <Button
+        android:id="@+id/btnBorrarPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BORRAR"
+        android:backgroundTint="#F44336"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+</LinearLayout>

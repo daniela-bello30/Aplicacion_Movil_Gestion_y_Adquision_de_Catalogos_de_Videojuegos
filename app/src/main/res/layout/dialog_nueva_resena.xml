@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escribe tu Reseña"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:hint="Título de la reseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etContenido"
+        android:hint="Escribe tu opinión..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:gravity="top"/>
+
+    <!-- ======================================================= -->
+    <!-- !! COMPONENTE QUE FALTABA Y CAUSABA EL ERROR !! -->
+    <RatingBar
+        android:id="@+id/rbPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:layout_marginTop="16dp"/>
+    <!-- ======================================================= -->
+
+</LinearLayout>

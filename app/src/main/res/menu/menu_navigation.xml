@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_mi_perfil"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Mi Perfil" />
+    <item
+        android:id="@+id/nav_mis_resenas"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Mis Reseñas" />
+    <item
+        android:id="@+id/nav_juegos"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Juegos" />
+    <item
+        android:id="@+id/nav_cerrar_sesion"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Cerrar Sesión" />
+</menu>

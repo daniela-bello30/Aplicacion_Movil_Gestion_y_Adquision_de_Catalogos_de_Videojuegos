@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Imagen del Juego -->
+        <ImageView
+            android:id="@+id/ivJuegoDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_dam"
+            android:contentDescription="Imagen del juego"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nombre -->
+        <TextView
+            android:id="@+id/tvNombreDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BATTLEFIELD 6"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/tvDescripcionDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción del juego..."
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Categoría -->
+        <TextView
+            android:id="@+id/tvCategoriaDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categoría: Acción"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Plataforma -->
+        <TextView
+            android:id="@+id/tvPlataformaDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plataforma: PS5"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Fecha de Lanzamiento -->
+        <TextView
+            android:id="@+id/tvFechaLanzDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lanzamiento: 2024-10-28"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Precio -->
+        <TextView
+            android:id="@+id/tvPrecioDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S/. 119.00"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>

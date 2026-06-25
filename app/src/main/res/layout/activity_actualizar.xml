@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".ActualizarActivity">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR JUEGO"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:paddingTop="40dp"
+            android:paddingBottom="20dp" />
+
+        <!-- ID del Juego -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID del Juego"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="4dp" />
+
+        <EditText
+            android:id="@+id/etReferenciaIdJuego"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Ingresa el ID del juego"
+            android:inputType="text"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Nombre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Juego"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="4dp" />
+
+        <EditText
+            android:id="@+id/etActualizarNombre"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Ingresa el nombre del juego"
+            android:inputType="text"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Descripción -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="4dp" />
+
+        <EditText
+            android:id="@+id/etActualizarDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Ingresa la descripción del juego"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Precio -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="4dp" />
+
+        <EditText
+            android:id="@+id/etActualizarPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Ingresa el precio (ej: 59.99)"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Fecha de Lanzamiento -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Lanzamiento"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="4dp" />
+
+        <EditText
+            android:id="@+id/etActualizarFechaLanz"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="YYYY-MM-DD (ej: 2024-10-28)"
+            android:inputType="date"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Botón Actualizar -->
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ACTUALIZAR JUEGO"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="24dp"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+</ScrollView>

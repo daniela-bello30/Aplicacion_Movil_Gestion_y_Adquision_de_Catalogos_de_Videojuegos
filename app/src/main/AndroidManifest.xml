@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto">
+
+        <!-- Admin Activities -->
+        <activity
+            android:name=".DashboardAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="Admin Login" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="Admin Register" /> <!-- Usuarios Activities -->
+        <activity
+            android:name=".DashboardUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginUsuarioActivity"
+            android:exported="false"
+            android:label="Login Usuario" />
+        <activity
+            android:name=".RegisterUsuarioActivity"
+            android:exported="false"
+            android:label="Registro Usuario" /> <!-- Crud juegos admin -->
+        <activity
+            android:name=".CRUDJuegosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BorrarActivity"
+            android:exported="false" /> <!-- Reseñas -->
+        <activity
+            android:name=".ResenaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResenasActivity"
+            android:exported="false" /> <!-- Splash Screen -->
+        <activity
+            android:name=".JuegosActivity"
+            android:exported="false"
+            android:label="Catálogo de Juegos" />
+        <activity
+            android:name=".CarritoActivity"
+            android:exported="false"
+            android:label="Carrito de Compras" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Base.Theme.Proyecto">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".UsuarioListaActivity" android:exported="false" />
+        <activity android:name=".UsuarioDetalleActivity" android:exported="false" />
+        <activity android:name=".UsuarioEliminarActivity" android:exported="false" />
+        <activity android:name=".ResenaListaActivity" android:exported="false" />
+        <activity android:name=".ResenaEliminarActivity" android:exported="false" />
+
+    </application>
+
+</manifest>
